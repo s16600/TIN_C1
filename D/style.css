@@ -1,0 +1,28 @@
+.rys1 {
+	//background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Rys1.png");
+	background-image: url("Rys1.png");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	padding: 60px;
+	color: blue;
+	font-size: 50px;
+	border: 3px solid blue;
+	margin: 30px;
+}
+
+h2 {
+	font-size:30px;
+	color: blue;
+	border-bottom: 3px solid blue;
+	text-indent: 5%
+}
+
+p{
+	border: 3px solid blue;
+	padding: 5px;
+	background-color:rgb(128, 204, 255);
+	margin-left: 10%
+}

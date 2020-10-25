@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Ćwiczenia 1, zadanie B</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<h1>Zgłaszanie działań niepożądanych produktów leczniczych</h1>
+
+<body>
+
+	<form>
+	<label	class="wymagana" for="fimie">Imię:</label><br>
+	<input type="text" id="fimie" name="fimie" value="Jan"><br>
+	
+	<label class="wymagana" for="fnazwisko">Nazwisko:</label><br>
+	<input type="text" id="fnazwisko" name="fnazwisko" value="Kowalski"><br>
+	
+	<label class="wymagana" for="fhaslo">Haslo:</label><br>
+	<input type="password" id="fhaslo" name="fhaslo"><br><bt><br><bt>
+	
+	<input type="checkbox" id="pierwszezgloszenie" name="pierwszezgloszenie" value="Tak">
+	<label for="pierwszezgloszenie"> Czy jest to pierwsze zgłosznie?</label><br><br>
+	
+	<label>Podaj wiek pacjenta:</label><br>
+	<input type="radio" id="wiek1" name="wiek" value="30">
+	<label for="wiek1">0 - 30</label><br>
+	<input type="radio" id="wiek2" name="wiek" value="60">
+	<label for="wiek2">31 - 60</label><br>  
+	<input type="radio" id="wiek3" name="wiek" value="100">
+	<label for="wiek3">61 - 100</label><br><br>
+	
+	<label class="wymagana" for="produkt">Wybierz rodzaj produktu:</label><br>
+	<select id="produkt" name="produkt">
+		<option value="generyczny dostępny bez recepty">generyczny dostępny bez recepty</option>
+		<option value="generyczny dostępny na receptę">generyczny dostępny na receptę</option>
+		<option value="oryginalny dostępny bez recepty">oryginalny dostępny bez recepty</option>
+		<option value="oryginalny dostępny na receptę">oryginalny dostępny na receptę</option>
+	</select>
+	
+	<br><bt><br><bt>
+	 <textarea name="opis" rows="10" cols="30">Tutaj wpisz opis działania niepożądanego</textarea>
+	 <br><br>
+	 
+	 <input type="submit">
+	 <input type="reset">
+  
+</form>
+
+</body>
+
+</html>
